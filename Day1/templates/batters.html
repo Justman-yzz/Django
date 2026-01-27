@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% for batter in LG26_batters_list|slice:":9" %}
+        {{ forloop.counter}}번 타자:
+        <a href="/LG26batter/{{ forloop.counter }}">{{ batter.name }}</a><br>
+    {% endfor %}
+</body>
+</html>
