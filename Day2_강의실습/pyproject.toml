@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "\"day2-todolistapp 만들기\""
+version = "0.1.0"
+description = ""
+authors = ["Justman-yzz <a01088744395@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+django = "^6.0.1"
+ipython = "^9.9.0"
+django-extensions = "^4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
