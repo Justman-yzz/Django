@@ -40,7 +40,7 @@ DJANGO_APPS = [
 ]
 
 OWN_APPS = [
-
+    'todo'
 ]
 
 THIRD_PARTY_APPS = [
