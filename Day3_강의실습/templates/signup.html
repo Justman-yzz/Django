@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post">
+  {% csrf_token %}
+  <input name="username" placeholder="username">
+  <input name="password" type="password" placeholder="password">
+  <button type="submit">회원가입</button>
+  <p style="color:red;">{{ error }}</p>
+</form>
+</body>
+</html>
