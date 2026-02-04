@@ -127,3 +127,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+LOGIN_REDIRECT_URL = '/todo/' # 로그인 후, todo list 페이지 이동
+LOGOUT_REDIRECT_URL = '/accounts/login/' # 로그아웃 후, 로그인 페이지로 이동
